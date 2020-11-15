@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let numero = [];
+        let flag = true;
+        for(let i=0; i<4; i++){
+            numero.push(parseInt(prompt("Ingrese un número")));
+
+        
+        
+        
+            if (numero[i] >= 23){
+                flag = false;
+            }
+        }
+        
+        
+        flag  ? document.write("Todos los números son menores al número establecido") : document.write("Fin");
+        
+
+    </script>
+</body>
+</html>

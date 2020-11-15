@@ -8,10 +8,12 @@
 <body>
 <script>
     const numeros = [];
+    let menores = false;
     for (let i = 0; i < 4; i++){
         numeros.push (parseInt(prompt("ingrese un numero del 1 al 100")));
+    menores = numeros[i] < 23;
     }
-    numeros[i]
+    menores
     ? document.write (`Todos los numeros son menores a 23`)
     : null
 
